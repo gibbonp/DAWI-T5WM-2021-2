@@ -88,7 +88,7 @@ public class FrmManteProducto extends JFrame {
 		txtSalida.setText(">>> Listado de Productos <<<\n");
 		System.out.println("Nro de Produtos : "+ lstProducto.size());
 		for (Producto p : lstProducto) {
-			txtSalida.append(p.getCodigo() + "\t" + p.getDescripcion() + "\n");
+			txtSalida.append(p.getCodigo() + "\t" + p.getDescripcion() + "\t" + p.getPrecio() + "\n");
 		}
 		txtSalida.append("--------------------------------------------\n");
 	}
